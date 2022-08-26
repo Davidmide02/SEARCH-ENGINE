@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: white;
+    color: rgb(39, 108, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+
+}
+
+/* Header section */
+
+header {
+    position: static;
+    /* background-color: rgb(2, 2, 38); */
+    color: rgb(39, 108, 186);
+    padding: 0rem 2rem;
+
+}
+
+span {
+    font-size: 5rem;
+}
+
+marquee {
+    color:black;
+}
+
+
+/* Main section  */
+
+main {
+    padding: 2rem 0rem;
+}
+
+div{
+    padding: 0em 1em;
+}
+
+
+
+.search {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(3, 16, 31);
+    font-weight: 400;
+    border: none;
+    /* border-bottom: 5px solid rgb(39, 108, 186); */
+    outline: none;
+}
+
+
+
+
+
+#search-key {
+    width: 50%;
+    outline: none;
+    border-bottom: 3px solid rgb(39, 108, 186);
+    padding: 0.5rem 0rem 0.2rem 1.5rem;
+    background-color: white;
+    color: rgb(2, 2, 38);
+    font-weight: 700;
+
+
+}
+
+.fa-magnifying-glass {
+
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+
+
+#btn-search {
+    color: white;
+    background: linear-gradient(90deg, rgb(39, 108, 186), rgb(4, 43, 43));
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgb(2, 2, 38);
+}
+
+#btn-search:hover {
+    box-shadow: none;
+    padding: 0.9rem 1.5rem;
+}
+
+/* Result section */
+#result {
+    margin-top: 2em;
+    font-weight: 600;
+    border-left: 4px solid rgb(2, 2, 38), ;
+
+}
+
+.Results-contanier{
+    margin-top: 1em;
+    margin-bottom:2em;
+}
+.error{
+    color: red;
+}
+
+
+
+/* footer section */
+
+footer {
+    font-weight: 550;
+    padding: 1rem 0.5rem;
+    background-color: rgb(2, 2, 38);
+    color: white;
+
+    
+}
+
+.social-handle {
+    float: right;
+}
+
+footer .address {
+    padding: 0.5rem 0rem;
+    
+}
+
+.social-handle .fa-brands {
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.social-handle .fa-brands:hover {
+    color: blue;
+}
+a {
+    color:  rgb(39, 108, 186);
+}
+.fa-solid {
+    color: white;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        /* background-color: lightgreen; */
+        font-weight: 500;
+        font-size: 16px;
+
+    }
+
+}
