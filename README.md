@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Davidmide02/Huddle-Landing-page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Davidmide02/SEARCH-ENGINE.git)
+- Live Site URL: [Add live site URL here](https://davidmide02.github.io/SEARCH-ENGINE/)
 
 ## My process
 - Drew a UI design 
@@ -51,6 +51,7 @@ Users should be able to:
 - Flexbox
 - CSS 
 - Serp API
+- Javascript fecth method
 
 
 
